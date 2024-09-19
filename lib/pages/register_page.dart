@@ -2,19 +2,22 @@ import 'package:firebase_auth/components/my_button.dart';
 import 'package:flutter/material.dart';
 import 'package:firebase_auth/components/my_textfield.dart';
 
-class LoginPage extends StatelessWidget {
+class RegisterPage extends StatelessWidget {
   // controller
+  final usernameController = TextEditingController();
   final emailController = TextEditingController();
   final TextEditingController passwordController = TextEditingController();
+  final TextEditingController confirmPasswordController = TextEditingController();
 
   final void Function()? onTap;
-  LoginPage({
+
+  RegisterPage({
     super.key,
     this.onTap,
   });
 
   //login method
-  void login() {}
+  void register() {}
 
   @override
   Widget build(BuildContext context) {
@@ -45,6 +48,15 @@ class LoginPage extends StatelessWidget {
 
               const SizedBox(height: 30),
 
+              // username textfield
+              MyTextfield(
+                hintText: 'Username',
+                obscureText: false,
+                controller: usernameController,
+              ),
+
+              const SizedBox(height: 10),
+
               // email textfield
               MyTextfield(
                 hintText: 'Email',
@@ -61,6 +73,16 @@ class LoginPage extends StatelessWidget {
                 controller: passwordController,
               ),
 
+
+              const SizedBox(height: 10),
+
+              // confirm password textfield
+              MyTextfield(
+                hintText: 'Confirm Password',
+                obscureText: true,
+                controller: confirmPasswordController,
+              ),
+
               const SizedBox(height: 10),
 
               // forgot password
@@ -74,20 +96,20 @@ class LoginPage extends StatelessWidget {
                 ],
               ),
 
-              // login button
-              MyButton(text: 'Login', onTap: login),
+              // Register button
+              MyButton(text: 'Register', onTap: register),
 
               // don;t have an account create one
               Row(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
-                  Text('Don\'t have an account? ',
+                  Text('Already have an account? ',
                       style: TextStyle(
                         color: Theme.of(context).colorScheme.secondary,
                       )),
                   GestureDetector(
                     onTap: onTap,
-                    child: const Text('Create one',
+                    child: const Text('Login here',
                         style: TextStyle(
                           fontWeight: FontWeight.normal,
                         )),
