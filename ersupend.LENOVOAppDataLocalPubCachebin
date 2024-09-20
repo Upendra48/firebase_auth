@@ -1,0 +1,42 @@
+[33mcommit 1481083aac6525017e9c168a7cf339106cb7f608[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: Upendra Raj Joshi <upendraofficial10@gmail.com>
+Date:   Fri Sep 20 23:32:52 2024 +0545
+
+    Add firebase core and connect to firebase for andriod and ios
+
+[33mcommit d35f328e642385916d61c6ca458766e5afb2e1a9[m
+Merge: 74c0523 6f114e0
+Author: Upendra Raj Joshi <upendraofficial10@gmail.com>
+Date:   Thu Sep 19 23:36:17 2024 +0545
+
+    Merge branch 'main' of https://github.com/Upendra48/firebase_auth
+
+[33mcommit 74c05237ac68419331f8c08a7fb318f674c175ff[m
+Author: Upendra Raj Joshi <upendraofficial10@gmail.com>
+Date:   Thu Sep 19 23:36:00 2024 +0545
+
+    add all pages required
+
+[33mcommit 6f114e0c2b1f326dd6bb692f053103a33c260d83[m
+Author: Upendra Raj Joshi <122508513+Upendra48@users.noreply.github.com>
+Date:   Wed Sep 18 16:08:58 2024 +0545
+
+    Update README.md
+
+[33mcommit 5d609d4c793f8ce1a9f1cbe54996f98874dc16fe[m
+Author: Upendra Raj Joshi <upendraofficial10@gmail.com>
+Date:   Wed Sep 18 16:00:41 2024 +0545
+
+    Add theme and textfield widget
+
+[33mcommit 2e1def727e62dd0882cd05775d737b556b55c338[m
+Author: Upendra Raj Joshi <upendraofficial10@gmail.com>
+Date:   Wed Sep 11 22:20:51 2024 +0545
+
+    Initial main commit
+
+[33mcommit 22bcbbcdcc5e313723d89abdb6868ce0d4b20a10[m
+Author: Upendra Raj Joshi <upendraofficial10@gmail.com>
+Date:   Wed Sep 11 22:19:59 2024 +0545
+
+    first commit
