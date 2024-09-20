@@ -1,5 +1,5 @@
 import 'package:firebase_auth/auth/login_or_register.dart';
-import 'package:firebase_auth/firebase_options.dart';
+import '../../firebase_options.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'theme/dark_mode.dart';
